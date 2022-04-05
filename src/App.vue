@@ -6,7 +6,7 @@
       
       <!-- 路由区域 -->
       <router-view></router-view>
-    
+    <!-- aaaa -->
       <!-- 底部导航 -->
       <van-tabbar v-model="active">
         <van-tabbar-item icon="home-o" to="/home">home</van-tabbar-item>
