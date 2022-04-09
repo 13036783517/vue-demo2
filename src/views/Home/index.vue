@@ -1,5 +1,7 @@
 <template>
     <div class="home">
+        <!-- 路由渲染 -->
+        <router-view></router-view>
         <!-- 轮播图 -->
         <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
             <van-swipe-item v-for="item in lunbolist" :key="item.id">
@@ -13,6 +15,7 @@
               :key="item.id"
               :icon="item.img"
               :text="item.text"
+              :to="item.to"
             />
           </van-grid>
     </div>

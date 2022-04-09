@@ -11,3 +11,15 @@ export const getLunbo=(params)=>{
 export const getTupian=(params)=>{
     return axios.get('/age',params)
 }
+//获取home里的新闻列表数据
+export const getZixun=(params)=>{
+    return axios.get('/may',params)
+}
+//获取home里的新闻详情数据
+export const getXiangqing=(params)=>{
+    return axios.get('/yey',params)
+}
+// 获取home里的新闻详情评论
+export const getname=(params)=>{
+    return axios.get('/name',params)
+}
